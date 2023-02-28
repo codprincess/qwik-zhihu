@@ -1,9 +1,18 @@
 import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
+// import { loader$ } from "@builder.io/qwik-city";
+
+// export const useGetServerTime = loader$(() => {
+//   return {
+//     time: Date.now()
+//   }
+// })
+// })
 
 export default component$(() => {
+  //const signal = useGetServerTime();
   return (
-    <>Home</>
+    <>index</>
   );
 });
 
